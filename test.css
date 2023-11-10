@@ -62,3 +62,24 @@
   border-radius: 50%;
   z-index: 3;
 }
+
+@media screen and (max-width:420px){
+  
+  .game{
+    max-width:300px ;
+   
+  }
+  .bird{
+    margin-left: 5px;
+  }
+  }
+  @media screen and (max-width:300px){
+  
+    .game{
+      max-width:200px ;
+     
+    }
+    .bird{
+      margin-left: 5px;
+    }
+    }
